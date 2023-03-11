@@ -1,0 +1,85 @@
+.signup-container {
+    width: 95%;
+    margin: 1% auto;
+    border-radius: 3px 3px 8px 8px;
+    border-top: 3px solid green;
+    box-shadow: #00000029 0px 1px 4px;
+}
+
+.required-item {
+    color: #ff0000;
+}
+
+.signup-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signup-left-container {
+    width: 40%;
+}
+
+.signup-right-container {
+    width: 40%;
+}
+
+.input-fields {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.input-fields label {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.input-fields input,
+.input-fields select {
+    height: 2rem;
+    width: 100%;
+    padding-left: 2%;
+    margin-top: 2%;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.input-fields input:focus,
+.input-fields select:focus {
+    border: 1px solid #0079ef;
+}
+
+.signup-button-container {
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.signup-cancel-button {
+    padding: 1% 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #2e3438;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: #0000000d 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+    cursor: pointer;
+}
+
+.signup-save-button {
+    padding: 1% 2%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0079ef;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: #0000000d 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+    cursor: pointer;
+}

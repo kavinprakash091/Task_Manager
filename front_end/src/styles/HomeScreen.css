@@ -1,0 +1,156 @@
+.page-container {
+  width: 100%;
+}
+
+.content-container {
+  z-index: 0;
+  height: 84vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.page-header {
+  position: static;
+  width: 90%;
+  margin: 1% auto;
+  padding-left: 1%;
+  padding-top: 1%;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #2e3438;
+  border-bottom: 1px solid #0079ef;
+}
+
+.project-details-container {
+  width: 100%;
+  margin: 3% auto;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-list-container {
+  margin-top: 2.5%;
+  margin-left: -3%;
+  width: 63%;
+  border-radius: 3px 3px 8px 8px;
+  border-top: 3px solid green;
+  box-shadow: #091e4240 0px 4px 8px -2px, #091e4214 0px 0px 0px 1px;
+}
+
+.project-list-header-container {
+  width: 96%;
+  padding: 2%;
+  box-shadow: #00000029 0px 1px 4px;
+}
+
+.project-list-table {
+  margin: 1% auto;
+  width: 96%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.project-table-sno {
+  width: 3rem;
+}
+
+.project-list-table tr {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.project-list-table th {
+  padding: 0.8%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.project-list-table td {
+  padding: 0.8%;
+}
+
+.project-name {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.project-due-date {
+  font-size: 0.8rem;
+}
+
+.project-progress-bar {
+  margin-top: 3%;
+}
+
+.project-progress-text {
+  margin-top: 3%;
+  font-size: 0.8rem;
+}
+
+.project-progress {
+  width: 30%;
+}
+
+.status-container {
+  padding: 3% 12%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 3px;
+  color: #ffffff;
+}
+
+.status-progress {
+  background-color: #179aa6;
+}
+
+.status-start {
+  background-color: #0079ef;
+}
+
+.status-complete {
+  background-color: #008000;
+}
+
+.project-view-button {
+  border: none;
+  padding: 8% 12%;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border-radius: 3px;
+  background-color: #0079ef;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.task-details-container {
+  width: 25%;
+}
+
+.project-count-container {
+  width: 100%;
+  padding: 5%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  box-shadow: #091e4240 0px 4px 8px -2px, #091e4214 0px 0px 0px 1px;
+}
+
+.project-count {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.total-project-text {
+  margin-top: 5%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #575f64;
+}
+
+.project-icon {
+  font-size: 3rem;
+  color: #dbdbdb;
+}

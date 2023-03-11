@@ -1,0 +1,291 @@
+.sign-in-screen-container {
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 4.5%;
+    background: linear-gradient(to left, #0b7ff0, #78b6f5);
+}
+
+.sign-in-card-container {
+    height: 80vh;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-image-container {
+    width: 20%;
+}
+
+.login-image-container>img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.sign-in-form-container {
+    height: 100%;
+    width: 50%;
+    background-color: #ffffff;
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sign-in-form-container h4 {
+    margin-bottom: 10%;
+    color: #008000;
+    font-weight: 300;
+}
+
+.sign-in-form-container h3 {
+    margin-top: -2%;
+}
+
+.sign-in-input-fields input {
+    height: 2.5rem;
+    width: 20rem;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+    padding-left: 3%;
+    font-size: 1rem;
+}
+
+.sign-in-input-fields i {
+    position: absolute;
+}
+
+.icon {
+    padding: 0.4%;
+    margin-top: -4%;
+    margin-left: 23%;
+    color: #757575;
+    cursor: pointer;
+}
+
+.sign-in-input-fields input::placeholder {
+    font-size: 1rem;
+}
+
+.sign-in-input-fields input:focus {
+    outline-color: #0b7ff0;
+}
+
+.sign-in-input-fields input:focus+#envelope {
+    color: #0b7ff0;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    margin-left: 60%;
+}
+
+.sign-in-button {
+    width: 100%;
+    padding: 3%;
+    border: none;
+    border-radius: 8px;
+    margin-top: 3%;
+    color: #ffffff;
+    font-size: 1rem;
+    background-color: #0b7ff0;
+    cursor: pointer;
+}
+
+.sign-in-image-container {
+    height: 100%;
+    width: 50%;
+}
+
+.sign-in-image-container>img {
+    height: 100%;
+    width: 100%;
+    border-radius: 0 10px 10px 0;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+    .icon {
+        margin-top: -5%;
+        margin-left: 28%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sign-in-screen-container {
+        padding-top: 7%;
+        padding-bottom: 6%;
+    }
+    .sign-in-card-container {
+        width: 85%;
+    }
+    .forgot-password a {
+        margin-left: 50%;
+    }
+    .sign-in-button {
+        padding: 4%;
+    }
+    .icon {
+        margin-top: -5%;
+        margin-left: 32%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sign-in-screen-container {
+        padding-top: 7%;
+        padding-bottom: 6.5%;
+    }
+    .sign-in-card-container {
+        width: 90%;
+    }
+    .icon {
+        padding: 0%;
+        margin-top: -5%;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .sign-in-screen-container {
+        padding-top: 7%;
+        padding-bottom: 7.5%;
+    }
+    .icon {
+        margin-top: -5.5%;
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sign-in-screen-container {
+        padding-top: 7%;
+        padding-bottom: 8%;
+    }
+    .sign-in-card-container {
+        width: 95%;
+    }
+    .sign-in-input-fields input {
+        width: 17rem;
+    }
+    .icon {
+        margin-top: -6%;
+        margin-left: 32%;
+    }
+    .forgot-password a {
+        margin-left: 50%;
+    }
+    .sign-in-button {
+        padding: 4%;
+        margin-top: 5%;
+    }
+    .sign-in-image-container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sign-in-screen-container {
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+    .icon {
+        margin-top: -7%;
+        margin-left: 34%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .sign-in-form-container {
+        border-radius: 10px;
+    }
+    .sign-in-screen-container {
+        padding-top: 11%;
+        padding-bottom: 11%;
+    }
+    .sign-in-image-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .sign-in-form-container {
+        width: 70%;
+    }
+    .sign-in-screen-container {
+        padding-top: 10%;
+        padding-bottom: 8%;
+    }
+    .icon {
+        margin-top: -7%;
+        margin-left: 40%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sign-in-screen-container {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .icon {
+        margin-top: -8%;
+        margin-left: 43%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sign-in-screen-container {
+        padding-top: 12%;
+        padding-bottom: 12%;
+    }
+    .sign-in-form-container {
+        width: 80%;
+    }
+    .icon {
+        margin-top: -8%;
+        margin-left: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .icon {
+        margin-top: -9%;
+        margin-left: 52%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .sign-in-screen-container {
+        padding-top: 13%;
+        padding-bottom: 14%;
+    }
+    .sign-in-form-container {
+        height: 80%;
+        width: 90%;
+    }
+    .sign-in-form-container h3 {
+        margin-left: 5%;
+    }
+    .login-image-container {
+        width: 50%;
+    }
+    .icon {
+        margin-top: -12%;
+        margin-left: 62%;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .sign-in-screen-container {
+        padding-top: 22%;
+        padding-bottom: 21%;
+    }
+    .icon {
+        margin-left: 66%;
+    }
+}
